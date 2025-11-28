@@ -9,7 +9,7 @@ import CityDetails from './components/CityDetails';
 
 function App() {
   return (
-    <div className="layout-wrapper">
+    <div className="layout-wrapper defaultbg">
       {/* Colonna sinistra */}
       <div className="sidebar sidebar-left bg-body-tertiary"></div>
 

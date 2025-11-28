@@ -8,7 +8,7 @@ const MeteoCard = ({ weather }) => {
       className="card mx-auto p-4 sfondoCard"
     >
       <img
-        src="src/assets/City.png"
+        src="src/assets/city.png"
         alt="weather"
         style={{ width: "120px" }}
         className="mx-auto mb-3"

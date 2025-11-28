@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const MeteoFooter = () => {
   return (
-    <footer className="text-light pt-5 pb-3 defaultbg ">
+    <footer className="text-light pt-5 pb-3 defaultbg">
       <Container>
         {/* Icone social */}
         <Row className=" mb-4">
@@ -39,7 +39,7 @@ const MeteoFooter = () => {
         {/* Copyright */}
         <Row className="justify-content-center">
           <Col className="text-center small">
-            © 1997-2023 Meteo, Inc.
+            © 1993-2025 Meteo, Inc.
           </Col>
         </Row>
       </Container>

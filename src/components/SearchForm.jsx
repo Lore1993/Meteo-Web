@@ -16,7 +16,7 @@ function ImageWithSearch() {
     <div className="image-container">
       {/* Immagine di sfondo */}
       <img
-        src="src/assets/pupo.png"
+        src="src/assets/searchbar.png"
         alt="Meteo"
         className="background-image"
       />

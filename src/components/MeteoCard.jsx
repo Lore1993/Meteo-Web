@@ -6,7 +6,6 @@ const MeteoCard = ({ weather }) => {
   return (
     <div
       className="card mx-auto p-4 sfondoCard"
-      style={{ maxWidth: "400px", borderRadius: "15px" }}
     >
       <img
         src="src/assets/City.png"

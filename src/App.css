@@ -1,0 +1,38 @@
+.layout-wrapper {
+  display: grid !important;
+  grid-template-columns: 1fr 2fr 1fr !important; 
+  min-height: 100vh !important;
+}
+
+.sidebar {
+  background-color: lightgray;
+}
+
+.main-content {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.footer a {
+  color: blue !important;              /* colore testo */
+  text-decoration: none !important;     /* niente sottolineatura */
+}
+
+.footer a:hover {
+  color: darkblue !important;           /* opzionale: colore al passaggio del mouse */
+  text-decoration: none !important;
+}
+
+/* Responsive su mobile */
+@media (max-width: 768px) {
+  .layout-wrapper {
+    grid-template-columns: 1fr !important; /* Su mobile: una sola colonna */
+  }
+
+  .sidebar {
+    display: none !important; /* Nascondi i sidebar su mobile */
+  }
+
+  .main-content {
+    width: 100% !important;
+  }
+}

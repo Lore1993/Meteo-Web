@@ -1,0 +1,74 @@
+.image-container {
+  position: relative;
+  width: 100%;        /* prende tutta la larghezza disponibile */
+  max-width: 100%;
+}
+
+.background-image {
+  width: 100%;        /* riempie tutta la larghezza */
+  height: auto;       /* mantiene proporzioni e si vede tutta l'immagine */
+  display: block;     /* elimina piccoli spazi bianchi sotto l'immagine */
+}
+
+.search-bar-container {
+  position: absolute;
+  top: 20px;             
+  left: 50%;             
+  transform: translateX(-50%);  
+  width: 80%;            
+  max-width: 800px;      
+  z-index: 10;           
+}
+/* Input più alto */
+.search-bar-container .form-control {
+  height: 50px;          /* aumenta altezza input */
+  font-size: 1.2rem;     /* testo più grande */
+}
+
+
+/* Bottone più grande */
+.search-bar-container .btn {
+  height: 50px;          /* stesso dell'input */
+  font-size: 1.2rem;
+}
+
+.sfondoCard {
+  background-color: #7e57c2 !important; /* viola */
+  color: white !important;              /* testo bianco */
+  text-align: center !important;        /* testi centrati */
+  padding: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* Box dei dettagli */
+.details {
+  background-color: #673ab7 !important; /* viola scuro */
+  padding: 15px !important;
+  border-radius: 10px !important;
+  margin-top: 15px !important;
+  width: 100% !important;
+  color: white !important;              /* testi bianchi */
+  text-align: center !important;
+}
+
+/* Centrare l'immagine */
+.sfondoCard img {
+  display: block !important;
+  margin: 0 auto 15px auto !important;
+}
+
+
+
+/* Optional: responsive */
+@media (max-width: 768px) {
+  .search-bar-container {
+    width: 90%;       /* più largo su mobile */
+  }
+}
+
+
+
+
+
